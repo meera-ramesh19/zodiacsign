@@ -1,0 +1,183 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html{
+  font-size:62.5%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+body{
+width:90%;
+/*
+  background-image: linear-gradient(to right top, #f6ff00, #c7e603, #9bcc0b, #73b110, #4c9713, #399327, #248f35, #008a40, #009a5f, #00aa7d, #00ba9a, #00c9b7);*/
+
+  max-width:100%;
+  max-height:100%;
+  background-image: linear-gradient(to right top, #e15864, #d34c53, #c54042, #b63432, #a72922, #a9251d, #ab2217, #ac1e10, #bf2113, #d22516, #e6281a, #fa2b1d);
+  text-align:center;
+  font-size:2rem;
+  padding:5%;
+  background: linear-gradient(to right, #9e3d2e,#ed7c7c,#de0d0d);
+}
+
+.section-a{
+  display:flex;
+  padding:2em;
+   width:100%;
+   height:auto;
+     margin:0 auto;
+ /* background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) ;
+ background-size:cover; */
+}
+
+.animal{
+  font-size:3rem;
+  padding:1em ;
+  background:black;
+  color:white;
+  margin:0 auto;
+}
+.btn{
+  display:flex;
+  padding:2em;
+  /* padding:3% 40%;
+  margin:0 auto; */
+}
+
+/* input[type="date"]{
+  margin:3% 40% 0 40%;
+} */
+/*
+#fortunes{
+  padding:1% 40%;
+} */
+
+#fortuneBtn{
+  margin:0 auto;
+  padding:1em;
+  background:black;
+  color:white;
+}
+
+/* .para{
+  font-size:2rem;
+  font-weight:bold;
+  width:700px;
+  margin: 0 0% 4% 22%;
+  padding:2%;
+} */
+.dates{
+  display:block;
+  justify-content:center;
+}
+#s_month,#s_days,#s_year{
+  /* background: green;
+  color:white;
+  padding:1%; */
+ display:inline-flex;
+ padding:0.5em 0;
+ background:black;
+ color:white;
+}
+h3,h4{
+  margin:0 auto;
+  padding:0.5em 0;
+}
+
+/* #s_zodiac{
+  margin:0 auto;
+   box-sizing: content-box;
+   width: 500px;
+  height: 200px;
+  padding: 2%;
+  border: 8px solid green;
+  background: black;
+  color:white;
+
+}
+
+#myImage{
+  margin:0 auto;
+  width:30%;
+  height:30%;
+}
+
+#zodiacImg{
+  padding :2%;
+} */
+
+
+#section-b{
+  padding:2em 2em;
+  max-width:100%;
+  max-height:100%;
+  position: relative;
+
+  /* background:#fff; */
+  color:#333;
+}
+
+.card-content{
+  padding:1.5em;
+}
+
+img{
+/* display:block; */
+ width:5em;
+ height:auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9;
+  }
+  .section{
+    width:50%;
+    height:50%;
+    display:flex-start;
+    margin:5%;
+  }
+  .para{
+    width:100px;
+    height:200px;
+    display:block;
+  justify-content:flex-start;
+  align-items:flex-start;
+  align-self:flex-start;
+
+  }
+  #s_zodiacs{
+  width:80px;
+  height:200px;
+}
+#s_horoscope{
+  width:40%;
+  height:auto;
+} */
+
+}

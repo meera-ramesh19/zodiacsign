@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+  font-size:62.5%;
+  height:100%;
+}
+body{
+
+    background: linear-gradient(to right, #FBE6FF 0%, #FFDDCC 50%, #FFB3B3 100%);
+  background-repeat: no-repeat center center fixed;
+/*   background-size: cover; */
+/*   background-position :top-left,left; */
+
+/*    overflow: hidden; */
+/*   background:FFD9B3;       */
+/*   height:100%; */
+}
+
+.headWrapper{
+  width:80%;
+  min-height: 100vh;
+  margin:6% auto;
+ border:5px solid  #856088;
+/*   background: linear-gradient(to right, #FBE6FF 0%, #FFDDCC 50%, #FFB3B3 100%); */
+
+}
+
+ .borderHead{
+    height:40%;
+    display:flex;
+   flex-direction:column;
+   align-items:center;
+   juatify-content:center;
+/*     background: linear-gradient(to right, #FBE6FF 0%, #FFDDCC 50%, #FFB3B3 100%); */
+}
+
+
+
+h1{
+   padding:3% 0 4% 0%;
+  margin:5% auto;
+  font-family:Cursive;
+  font-size:3rem;
+  font-weight:bold;
+ max-height:50%;
+  text-align:center;
+ border-width:4px 30px 4px 30px;
+border-style: solid;
+border-color: #db7093;
+border-radius:0 120px 0 120px;
+   width:30%;
+  height:30%;
+}
+.horoscopeImage{
+  display:inline-flex;
+}
+
+#westImg > img, #chinaImg >img{
+  width:80%;
+  height:80%;
+  padding:6%;
+}
+
+p{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin:2% auto;
+  font-size: 6rem;
+  font-family: "Sofia", sans-serif;
+}
+.planet, .animal{
+ padding:1%;
+  margin:0 10% 0 40%;
+  background-color:#ff9999;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .headwrapper{
+    width:50%;
+  }
+}

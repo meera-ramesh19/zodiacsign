@@ -1,0 +1,164 @@
+html{
+  font-size:62.5%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+
+}
+body{
+/*   #00C9A7; */
+
+  max-width:100%;
+  max-height:100%;
+ background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) ;
+  text-align:center;
+   background-size:cover;
+  font-size:2rem;
+
+}
+.section-a{
+  display:flex;
+  padding:2em;
+   width:100%;
+   height:auto;
+     margin:0 auto;
+ /* background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) ;
+ background-size:cover; */
+}
+
+.western{
+  padding:1em ;
+  background:black;
+  color:white;
+  margin:0 auto;
+}
+
+/* input[type="date"]{
+  margin:3em 40em 0 40em;
+} */
+
+
+.btn{
+  display:flex;
+  padding:2em;
+}
+#fortuneBtn{
+  margin:0 auto;
+  padding:1em;
+  background:black;
+  color:white;
+}
+.dates{
+  display:block;
+  justify-content:center;
+}
+#s_days, #s_month{
+   display:inline-flex;
+  padding:0.5em 0;
+  background:black;
+  color:white;
+}
+h3,h4{
+  margin:0 auto;
+  padding:0.5em 0;
+}
+/* #fortunes{
+  padding:1em 40em;
+} */
+
+
+
+/* #s_zodiacs{
+  /* margin:0 auto;
+  width: 500px;
+  height: 200px;
+  padding: 2%;
+  border: 8px solid green;
+  background: black;
+  color:white; */
+/*  padding: 2em 1em 1em;
+ max-width: 1000px;
+  position: relative;
+ margin: auto;
+
+}
+
+#myImage{
+  margin:0 auto;
+  width:20%;
+  height:20%;
+}
+
+#s_horoscope{
+  width:100%;
+  text-align:center;
+} */
+
+#section-b{
+  padding:2em 2em;
+  max-width:100%;
+  max-height:100%;
+  position: relative;
+
+  /* background:#fff; */
+  color:#333;
+}
+
+/* #section-b {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+#section-b {
+  margin:10em;
+  background:#fff;
+  color:#333;
+}*/
+.card-content{
+  padding:1.5em;
+}
+img{
+/* display:block; */
+ width:5em;
+ height:auto;
+}
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9;
+
+  }
+  .section{
+    width:50%;
+    height:50%;
+    margin:0 auto;
+  }
+  #s_zodiacs{
+    width:50%;
+    height:50%;
+  }
+  #s_horoscope{
+    max-width:50%;
+    height:100%;
+  }
+} */
